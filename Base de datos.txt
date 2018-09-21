@@ -1,0 +1,23 @@
+show databases;
+create database SistemaInventario;
+use SistemaInventario;
+
+insert into Usuarios Value (1152198827,'Jader','Diaz','123',1);
+insert into Usuarios Value (1146435015,'Gerald','Echavarria','123',1);
+insert into Usuarios Value (1152198829,'Felipe','Perez','123',2);
+
+insert into Productos Value (301,'Age Of Empire II','PC',20000,8);
+insert into Productos Value (302,'Rise of Nations','PC',12000,4);
+insert into Productos Value (303,'Total War Rome II','PC',25000,6);
+insert into Productos Value (201,'Gears of War Judgment','X360',180000,11);
+insert into Productos Value (202,'Assassins Creed 4','X360',195000,10);
+insert into Productos Value (203,'Dead Space 3','X360',175000,7);
+
+insert into Clientes Value (43894711,'Maria Luz','Conchita',2524698,301456879,'Maria.super@hotmail.com');
+insert into Clientes Value (42720153,'Juanito','Alcachofas',4634895,3214857213,'alcachofasTV@hotmail.com');
+
+insert into Productos Value (999,'Producto de Prueva','PC',20000,50);
+
+insert into ventas Value (1001,1152198827,43894711,999,5,'2013-04-09 06:34:55.666');
+
+
